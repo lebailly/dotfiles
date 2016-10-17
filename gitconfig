@@ -1,0 +1,12 @@
+[user]
+	name = Chris LeBailly
+	email = chris.lebailly@gmail.com
+[core]
+	excludesfile = /Users/lebailly/.gitignore
+	editor = emacs
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = simple
