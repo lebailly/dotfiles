@@ -1,0 +1,1 @@
+This repo uses [rcm](https://github.com/thoughtbot/rcm), an rc file manager.
