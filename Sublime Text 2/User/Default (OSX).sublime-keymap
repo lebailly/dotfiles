@@ -1,0 +1,5 @@
+[
+{"keys": ["ctrl+shift+m"], "command": "insert_snippet", "args": {"contents": "if __name__=='__main__':\n\tmain()"}},
+{"keys": ["ctrl+shift+c"], "command": "insert_snippet", "args": {"contents": "meng.connect(config.database, host=config.host, username=config.user, password=config.pwd, port=config.port)\n"}},
+{"keys": ["ctrl+shift+p"], "command": "insert_snippet", "args": {"contents": "import mongoengine as meng\n\nimport sys, os\nPYBASE = os.path.abspath(os.path.join(os.path.dirname(__file__), \"..\") )\nsys.path.append(PYBASE)\n\nimport config\n"}}
+]
