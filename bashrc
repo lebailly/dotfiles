@@ -7,7 +7,7 @@ cd /Users/lebailly/Documents/science
 alias venv='. /Users/lebailly/Documents/science/venv/bin/activate'
 alias rd='. /Users/lebailly/Documents/science/venv-rd/bin/activate'
 alias pypy='. /Users/lebailly/Documents/science/venv-pypy/bin/activate'
-alias skillz='cd /Users/lebailly/Documents/skillz; . ./venv/bin/activate '
+alias skillz='cd /Users/lebailly/Documents/skillz; . ./application/venv/bin/activate '
 venv
 
 # SSH tunnels (which use info in ~/.ssh/config) + local database command
