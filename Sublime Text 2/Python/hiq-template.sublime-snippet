@@ -1,9 +1,14 @@
 <snippet>
-    <tabTrigger>ewq</tabTrigger>
+    <tabTrigger>hiq</tabTrigger>
     <description>Default hiQ Script</description>
 
     <content><![CDATA[
+"""
+${0:ADD DOC STRING HERE}
+"""
+
 import mongoengine as meng
+import argparse
 
 import sys, os
 PYBASE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..") )
@@ -17,7 +22,14 @@ def main():
 
     meng.connect(config.database, host=config.host, username=config.user, password=config.pwd, port=config.port)
 
-    ${0:pass}
+    ${1:}
+
+def parse_arguments():
+    """ parses commandline arguments """
+
+    parser = argparse.ArgumentParser(description=__doc__)${2:}
+    
+    return parser.parse_args()
 
 if __name__=='__main__':
     main()
