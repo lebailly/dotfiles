@@ -22,8 +22,8 @@ alias notebook='echo -e "\033]0; iPython Notebooks - 8889\007"; rd; cd /Users/le
 # Other
 alias clean="find . -name '*.pyc' -delete; find . -name '*~' -delete"
 export GREP_OPTIONS='--exclude-dir=.git --exclude-dir=venv --exclude-dir=venv-rd --exclude-dir=venv-pypy'
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/bin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
 alias test='ping 10.0.199.254'
 alias ls='ls -G' # ls --color=auto for non-mac
 source ~/.bash_aliases

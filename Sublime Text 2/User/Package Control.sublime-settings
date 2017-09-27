@@ -7,6 +7,7 @@
 	[
 		"Default File Type",
 		"Package Control",
-		"rsub"
+		"rsub",
+		"SublimeLinter"
 	]
 }
