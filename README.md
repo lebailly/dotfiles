@@ -7,3 +7,4 @@ To set up a new computer (mac):
 
 Follow this [quick start](http://thoughtbot.github.io/rcm/rcm.7.html)
 Follow this for [iTerm](http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/)
+Follow this for [HomeBrew](https://medium.com/@satorusasozaki/automate-mac-os-x-configuration-by-using-brewfile-58a78ce5cc53) (with a brewfile)
