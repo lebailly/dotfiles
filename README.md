@@ -1,10 +1,10 @@
 This repo uses [rcm](https://github.com/thoughtbot/rcm), an rc file manager.
 
-To set up a new computer (mac):
+To set up a new computer (mac):    
 `brew tap thoughtbot/formulae`       
 `brew install rcm`  
-(see rcm README for others)  
+(see rcm [README](https://github.com/thoughtbot/rcm) for others)  
 
-Follow this [quick start](http://thoughtbot.github.io/rcm/rcm.7.html)
-Follow this for [iTerm](http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/)
+Follow this [quick start](http://thoughtbot.github.io/rcm/rcm.7.html)     
+Follow this for [iTerm](http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/)     
 Follow this for [HomeBrew](https://medium.com/@satorusasozaki/automate-mac-os-x-configuration-by-using-brewfile-58a78ce5cc53) (with a brewfile)
