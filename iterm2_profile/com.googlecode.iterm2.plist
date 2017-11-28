@@ -16,6 +16,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
@@ -70,6 +72,8 @@
 	<integer>0</integer>
 	<key>HotkeyCode</key>
 	<integer>0</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>0</integer>
 	<key>IRMemory</key>
@@ -85,7 +89,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iterm2_profile</string>
+	<string>~/.dotfiles/iterm2_profile</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -96,44 +100,45 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>322</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame Preferences</key>
-	<string>230 303 924 485 0 0 1920 1080 </string>
+	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
+	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
+	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
+	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
+	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
+	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
+	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	AAAAADoAAAAAAAAAAAAAAAAAAAFM
+	</data>
+	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
+	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
+	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
+	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	</data>
+	<key>NSTableView Supports v2 KeyBingingTable</key>
+	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 491 620 392 0 0 1680 1027 </string>
+	<string>410 383 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>710 495 796 473 0 0 1680 1027 </string>
+	<string>204 363 796 473 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>341 225 890 652 0 0 1680 1027 </string>
+	<string>30 124 890 652 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>112 91 890 652 0 0 1280 777 </string>
+	<string>100 225 890 652 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>110 125 890 652 0 0 1680 1027 </string>
+	<string>121 109 890 652 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>233 139 890 652 0 0 1920 1057 </string>
+	<string>59 199 1418 652 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>718 342 890 652 0 0 1920 1080 </string>
+	<string>334 163 1495 875 0 0 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>331 428 890 652 0 0 1920 1080 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -865,60 +870,11 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>235B945D-4C0A-4891-A7A2-4603A180E848</string>
-	<key>NoSyncLastTipTime</key>
-	<real>531124835.87614298</real>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>1</integer>
+	<string>D7B75606-F427-48FD-90EC-095A632F6EFD</string>
 	<key>NoSyncPermissionToShowTip</key>
-	<true/>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>492805147.60544699</real>
-	<key>NoSyncTimeOfLastPromo</key>
-	<real>467605501.01061702</real>
-	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>491810276.77276498</real>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-		<string>0004</string>
-		<string>0005</string>
-		<string>0006</string>
-		<string>0007</string>
-		<string>0008</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-		<string>0012</string>
-		<string>0013</string>
-		<string>0014</string>
-		<string>0015</string>
-		<string>0016</string>
-		<string>0017</string>
-		<string>0018</string>
-		<string>0019</string>
-		<string>0020</string>
-		<string>0021</string>
-		<string>0022</string>
-		<string>0023</string>
-		<string>0024</string>
-		<string>0025</string>
-		<string>0026</string>
-		<string>0027</string>
-		<string>0028</string>
-		<string>0029</string>
-		<string>0030</string>
-		<string>0031</string>
-		<string>0032</string>
-		<string>0033</string>
-		<string>0034</string>
-	</array>
+	<real>531099892.547553</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -965,7 +921,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/lebailly/dotfiles/iterm2_profile</string>
+	<string>/Users/clebailly/.dotfiles/iterm2_profile</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -979,11 +935,13 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=76</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=17</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-31T06:40:37Z</date>
+	<date>2017-11-09T18:44:40Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1028,9 +986,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.1.4</string>
 </dict>
 </plist>
