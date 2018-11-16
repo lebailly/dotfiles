@@ -1,0 +1,12 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+		"paths": {
+			"linux": [],
+			"osx": [
+				"/usrs/local/bin/pylint"
+			],
+			"windows": []
+		}
+	}
+}
