@@ -1,6 +1,5 @@
 set -x GREP_OPTIONS '--exclude-dir=.git --exclude-dir=venv'
-. /Users/clebailly/.dotfiles/config/fish/aws.fish # Avoid commmiting the AWS host name, added to file in gitignore
-cd /Users/clebailly/Documents/dev
-#. ./venv/bin/activate.fish
+set -Ux LSCOLORS gxfxbEaEBxxEhEhBaDaCaD
+# https://stackoverflow.com/questions/25560595/how-do-i-change-the-colour-of-directory-listings-with-oh-my-fish
 
 pyenv init - | source

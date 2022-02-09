@@ -1,9 +1,9 @@
 [user]
 	name = Chris LeBailly
-	email = clebailly@reflektive.com
+	email = chris.lebailly@gmail.com
 [core]
-	excludesfile = /Users/clebailly/.gitignore
-	editor = emacs
+	excludesfile = /Users/lebailly/.gitignore
+	editor = vim
 [filter "media"]
 	required = true
 	clean = git media clean %f
